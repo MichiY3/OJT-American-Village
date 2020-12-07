@@ -1,14 +1,53 @@
+/* 全体 */
 body {
     width: 1152px;
     height: 100%;
+    margin: 0 auto;
 }
 
+/* header */
+header {
+  height: 100px;
+  display: flex;
+  padding: 5px 0;
+  justify-content: flex-end;
+  font-size: 18px;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list li {
+  margin-right: 30px;
+}
+
+.nav-list li:last-child {
+  margin-right: 0;
+}
+/* /header */
+
+/* main-image */
+/* /main-image */
+
+/* blog */
+/* /blog */
+
+/* footer*/
+/* /footer */
 
 
 /*スマートフォン*/
 @media screen and (max-width: 480px) {
-    body {
-      min-width: 375px;
-      max-width: 480px;
-      margin-bottom:50px;
-    }
+  body {
+    min-width: 375px;
+    max-width: 480px;
+    margin-bottom:50px;
+  }
+}
