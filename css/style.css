@@ -2,3 +2,13 @@ body {
     width: 1152px;
     height: 100%;
 }
+
+
+
+/*スマートフォン*/
+@media screen and (max-width: 480px) {
+    body {
+      min-width: 375px;
+      max-width: 480px;
+      margin-bottom:50px;
+    }
