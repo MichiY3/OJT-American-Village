@@ -48,8 +48,8 @@ nav {
 
 /* hamburger */
 .hamburger {
-  width: 32px;
-  height: 30px;
+  width: 44px;
+  /* height: 20px; */
   margin: 30px auto 10px;
   display: none;
 }
@@ -59,11 +59,11 @@ nav {
   content: "";
   position: absolute;
   left: 0;
-  top: -9px;
+  top: -18px;
 }
 
 .hamburger span:after {
-  top: 9px;
+  top: 18px;
 }
 
 .hamburger span {
@@ -75,9 +75,9 @@ nav {
 .hamburger span:after,
 .hamburger span:before {
   width: 100%;
-  height: 5px;
-  background-color: #ddd;
-  transition: all 0.5s; /*â†ã‚¢ãƒ‹ãƒ¡ãƒ¼ã‚·ãƒ§ãƒ³*/
+  height: 8px;
+  background-color: #000;
+  transition: all 0.5s; 
   backface-visibility: hidden;
   border-radius: 2px;
 }
@@ -94,6 +94,34 @@ nav {
   transform: rotate(-45deg) translate(7px, -8px);
 }
 /* /hamburger */
+
+/* drawer */
+#drawer-bg {
+  display: none;
+  position: fixed;
+  top: 70px;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, .5);
+}
+
+.drawer {
+  display: none;
+  position: absolute;
+  top: 70px;
+  right: -200px;
+  height: 100vh;
+  width: 200px;
+  background-color: rgba(8, 8, 8, .5);
+  transition-duration: 600ms;
+}
+
+.drawer.on {
+  right: 0;
+  transition-duration: 600ms;
+}
+/* /drawer */
 /* /header */
 
 /* main-image */
