@@ -297,6 +297,7 @@ main {
 
 }
 #blog_content img{
+  position:relative;
   width:80%
  
 }
