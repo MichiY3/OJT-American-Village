@@ -49,7 +49,7 @@ nav {
 /* hamburger */
 .hamburger {
   width: 44px;
-  /* height: 20px; */
+  height: 20px;
   margin: 30px auto 10px;
   display: none;
 }
@@ -87,11 +87,11 @@ nav {
 }
 
 .hamburger.on span:before {
-  transform: rotate(45deg) translate(5px, 5px);
+  transform: rotate(45deg) translate(15px, 15px);
 }
 
 .hamburger.on span:after {
-  transform: rotate(-45deg) translate(7px, -8px);
+  transform: rotate(-45deg) translate(10px, -11px);
 }
 /* /hamburger */
 
@@ -99,7 +99,8 @@ nav {
 #drawer-bg {
   display: none;
   position: fixed;
-  top: 70px;
+  z-index: 1;
+  top: 170px;
   right: 0;
   bottom: 0;
   left: 0;
@@ -107,18 +108,20 @@ nav {
 }
 
 .drawer {
-  display: none;
+  /* display: none; */
   position: absolute;
-  top: 70px;
-  right: -200px;
-  height: 100vh;
+  z-index: 1;
+  top: 170px;
+  right: -100vh;
+  height: 180vh;
   width: 200px;
   background-color: rgba(8, 8, 8, .5);
   transition-duration: 600ms;
+  color: #fff;
 }
 
 .drawer.on {
-  right: 0;
+  right: -48vh;
   transition-duration: 600ms;
 }
 /* /drawer */
@@ -130,11 +133,6 @@ main {
   margin-bottom: 100px;
 }
 
-/* .logo_img {
-  position: absolute;
-  top: -15%;
-} */
-
 .main_img {
   display: flex;
   justify-content: space-around;
@@ -142,7 +140,7 @@ main {
 
 .img_text {
   position: absolute;
-  left: 57%;
+  left: 59%;
   bottom: -3%;
 }
 
@@ -208,6 +206,10 @@ main {
     max-width: 767px;
     margin-bottom:50px;
   }
+
+  .wrapper {
+    overflow-x: hidden;
+  }
   /* header */
   header {
     height: 20vh;
@@ -223,8 +225,8 @@ main {
   }
 
   .logo_img img {
-    height: 160px;
-    width: 160px;
+    height: 150px;
+    width: 150px;
   }
 
   nav {
