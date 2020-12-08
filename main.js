@@ -3,11 +3,11 @@ $(function(){
     // // ハンバーガーメニュー
 	// $('#btn').on('click',function(){
 	// 	let isActive = $(this).hasClass('on');
-	// 	toggleDrower(isActive);
+	// 	toggleDrawer(isActive);
 	// });
 
 	// // ドロワー
-	// function toggleDrower(isActive) {
+	// function toggleDrawer(isActive) {
 	//     $('.js-hamburger')
 	//     if (isActive) {
 	//       $('#drawer-bg').fadeOut(600);
