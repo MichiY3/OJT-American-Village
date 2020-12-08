@@ -13,20 +13,43 @@
     <!-- header -->
     <header>
         <!-- header left -->
+        <p class="logo_img"><img src="img/logo.png" alt=""></p>
+        <!-- header right -->
         <nav>
-            <ul class="nav-list">
+            <ul class="nav_list">
                 <li>Menu01</li>
                 <li>Menu02</li>
                 <li>Menu03</li>
                 <li>Menu04</li>
             </ul>
         </nav>
+        <!-- hamburger -->
+        <p id="btn" class="js-hamburger hamburger">
+	        <span></span>
+        </p>
+        <!-- drawer -->
+        <div id="drawer-bg" ></div>
+		<ul class="drawer js-drawer">
+			<li>Menu01</li>
+            <li>Menu02</li>
+            <li>Menu03</li>
+            <li>Menu04</li>
+		</ul>
     </header>
     <!-- /header -->
 
     <!-- main-image -->
     <main>
-
+        <!-- <p class="logo_img"><img src="img/logo.png" alt=""></p> -->
+        <picture class="main_img">
+            <source srcset="img/visual_1_sp.png" media="(max-width:767px)">
+            <img src="img/visual_1_pc.png" alt="">
+        </picture>
+        <h1 class="caption">進化し続ける「街」<span class="br">アメリカンビレッジマガジン</span></h1>
+        <picture class="img_text">
+            <source srcset="img/visual_text_sp.png" media="(max-width:767px)">
+            <img src="img/visual_text_pc.png" alt="">
+        </picture>
     </main>
     <!-- /main-image -->
 
