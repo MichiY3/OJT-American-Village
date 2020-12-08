@@ -121,7 +121,7 @@ nav {
 }
 
 .drawer.on {
-  right: -48vh;
+  right: 0;
   transition-duration: 600ms;
 }
 /* /drawer */
@@ -204,10 +204,11 @@ main {
   body {
     min-width: 375px;
     max-width: 767px;
-    margin-bottom:50px;
   }
 
   .wrapper {
+    width: 100%;
+    position: relative;
     overflow-x: hidden;
   }
   /* header */
