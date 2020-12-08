@@ -15,6 +15,13 @@ header {
   padding: 5px 0;
   justify-content: flex-end;
   font-size: 18px;
+  position: relative;
+}
+
+.logo_img {
+  z-index: 1;
+  position: absolute;
+  left: 0;
 }
 
 nav {
@@ -23,20 +30,46 @@ nav {
   align-items: center;
 }
 
-.nav-list {
+.nav_list {
   display: flex;
 }
 
-.nav-list li {
+.nav_list li {
   margin-right: 30px;
 }
 
-.nav-list li:last-child {
+.nav_list li:last-child {
   margin-right: 0;
 }
 /* /header */
 
 /* main-image */
+main {
+  position: relative;
+  margin-bottom: 100px;
+}
+
+/* .logo_img {
+  position: absolute;
+  top: -15%;
+} */
+
+.main_img {
+  display: flex;
+  justify-content: space-around;
+}
+
+.img_text {
+  position: absolute;
+  left: 57%;
+  bottom: -3%;
+}
+
+.caption {
+  font-size: 20px;
+  font-weight: 100;
+  margin-top: 15px;
+}
 /* /main-image */
 
 /* blog */
