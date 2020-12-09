@@ -377,6 +377,10 @@ a {
     left: 55%;
   }
 
+  .read_more span {
+    display: none;
+  }
+
   .blog_content p:nth-of-type(2) {
     display: flex;
     justify-content: start;
