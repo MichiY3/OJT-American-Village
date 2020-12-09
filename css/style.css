@@ -175,27 +175,41 @@ main {
 }
 #column3{
   display: grid;
-  grid-template-columns: 330px 330px 330px;
+  grid-template-columns: 360px 360px 360px;
   justify-content: space-around;
 }
 
 #blog_content{
-  width:330px;
+  width:360px;
   height:470px;
   margin-bottom:20px;
-  /*position: relative;*/
+  position: relative;
   /* padding-left:10px;
   padding-right:10px; */
+  padding-bottom:20px;
 
 }
 
 #blog_content img{
-  width:330px;
-  height:210px;
+  width:360px;
+  height:230px;
 }
 
 
+#blog_content hr{
+  width:5px;
+  display: flex;
+  justify-content: flex-end;
+
+}
+
+.thumbnail_img{
+  width:360px;
+  height:230px;
+}
+
 #blog_content p{
+
   /* width:330px;
   height:470px; */
   margin-bottom:15px;
@@ -203,14 +217,14 @@ main {
   padding-left:15px;
 }
 .read_more{
- /* position: absolute;
+ position: absolute;
   right: 0%;
-  bottom: 0%;*/
-  display:flex;
-  align-items: flex-end;
-  justify-content:flex-end;
+  bottom: 0%;
+  
+ text-align:flex-end;
   
 }
+
 
 /*　blogシャドウ*/
     .shadow_box {
