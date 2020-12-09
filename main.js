@@ -19,22 +19,16 @@ $(function(){
 	  }
 
 	// スライダー
-	// var $setElm = $('.slider'),
-    // fadeSpeed = 1500,
-    // switchDelay = 3000;
- 
-    // $setElm.each(function(){
-    //     var targetObj = $(this);
-	// 	var findImg = targetObj.find('picture');
-    //     var findLiFirst = targetObj.find('picture:first');
- 
-	// 	findImg.css({display:'block',opacity:'0',zindex:'99'});
-	// 	findLiFirst.css({zIndex:'100'}).stop().animate({opacity:'1'},fadeSpeed);
- 
-    //     setInterval(function(){
-    //         targetObj.find('picture:first-child').animate({opacity:'0'},fadeSpeed).next('li').css({zIndex:'100'}).animate({opacity:'1'},fadeSpeed).end().appendTo(targetObj).css({zIndex:'99'});
-    //     },switchDelay);
-    // });
+	let swipeOption = {
+		loop: true,
+		effect: 'fade',
+		autoplay: {
+		  delay: 3000,
+		  disableOnInteraction: false,
+		},
+		speed: 1500,
+	  }
+	  new Swiper('.swiper-container', swipeOption);
 
     
 });
