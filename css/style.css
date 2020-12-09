@@ -110,11 +110,27 @@ nav {
   right: 0;
   bottom: 0;
   left: 0;
-  background-color: rgba(0, 0, 0, .5);
+  background-color: rgba(255, 255, 255, .9);
+  color: #000;
 }
 
-.drawer {
-  /* display: none; */
+#drawer-bg ul {
+  text-align: center;
+}
+
+#drawer-bg li {
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+#drawer-bg li:last-child {
+  margin-bottom: 0;
+}
+#drawer-bg li:first-child {
+  margin-top: 25px;
+}
+/* .drawer {
+  display: none;
   position: absolute;
   z-index: 1;
   top: 170px;
@@ -138,7 +154,8 @@ nav {
 
 .drawer li:last-child {
   margin-bottom: 0;
-}
+} */
+
 /* /drawer */
 /* /header */
 
