@@ -175,12 +175,13 @@ main {
 }
 #column3{
   display: grid;
-  grid-template-columns: 360px 360px 360px;
+  grid-template-columns: 330px 330px 330px;
   justify-content: space-around;
+  padding:40px;
 }
 
 #blog_content{
-  width:360px;
+  width:330px;
   height:470px;
   margin-bottom:20px;
   position: relative;
@@ -191,8 +192,8 @@ main {
 }
 
 #blog_content img{
-  width:360px;
-  height:230px;
+  width:330px;
+  height:220px;
 }
 
 
@@ -204,8 +205,8 @@ main {
 }
 
 .thumbnail_img{
-  width:360px;
-  height:230px;
+  width:330px;
+  height:220px;
 }
 
 #blog_content p{
@@ -340,8 +341,13 @@ main {
     flex-direction: column;
     align-items: center;
 
+
   }
+  #blog_content{
+   
+ }
  
+
   /*blog end*/
 
 
