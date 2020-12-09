@@ -30,5 +30,15 @@ $(function(){
 	  }
 	  new Swiper('.swiper-container', swipeOption);
 
-    
+	
+	
+	// ホバーで下線伸びる
+	$('.shadow_box').on('mouseover', function(){
+		$(this).find('span').animate({'width':'100%'}, 250)
+	});
+	// ホバーしてないなら元どおり
+	$('.shadow_box').on('mouseleave', function(){
+		$(this).find('span').animate({'width':'30%'}, 250)
+	});
+
 });

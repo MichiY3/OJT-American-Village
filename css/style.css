@@ -224,8 +224,8 @@ main .swiper-container {
 
 .read_more{
   position: absolute;
-  right: 0%;
-  bottom: 0%;
+  right: 5%;
+  bottom: 10%;
   text-align:flex-end;
 }
 
@@ -244,6 +244,24 @@ main .swiper-container {
       box-shadow:1px 1px 12px rgba(0,0,0,.45);
     }
 /*　blogシャドウ*/
+
+a {
+  position: relative;
+  display: inline-block;
+  text-decoration: none;
+  color: #000;
+}
+
+.read_more span {
+  background:#000; 
+  height:2px; 
+  display:block; 
+  position:absolute; 
+  width:30%; 
+  bottom: -80%;
+  right: 0;
+}
+
 /* /blog */
 
 /* footer*/
