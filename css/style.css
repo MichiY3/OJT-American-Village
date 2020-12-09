@@ -8,6 +8,13 @@ body {
     margin: 0 auto;
 }
 
+.wrapper {
+    width: 100%;
+    position: relative;
+    overflow-x: hidden;
+  
+}
+
 /* header */
 header {
   height: 10vh;
@@ -124,6 +131,15 @@ nav {
   right: 0;
   transition-duration: 600ms;
 }
+
+.drawer li {
+  font-size: 32px;
+  margin-bottom: 35px;
+}
+
+.drawer li:last-child {
+  margin-bottom: 0;
+}
 /* /drawer */
 /* /header */
 
@@ -158,31 +174,31 @@ main {
   margin: 50px;
 }
 #column3{
+
   display: grid;
   grid-template-columns: 330px 330px 330px;
   justify-content: space-around;
 }
 
 #blog_content{
-  width:330px
+  width:330px;
   height:670px;
   margin-bottom:20px;
   /*position: relative;*/
- 
   /* padding-left:10px;
   padding-right:10px; */
 
 }
+
 #blog_content img{
-  /*position:relative;*/
- 
+  position:relative;
   width:330px;
   height:210px;
 }
 
 
 #blog_content p{
-  width:330px
+  width:330px;
   height:670px;
   margin-bottom:15px;
   padding-right:15px;
@@ -235,22 +251,17 @@ main {
     max-width: 767px;
   }
 
-  .wrapper {
-    width: 100%;
-    position: relative;
-    overflow-x: hidden;
-  }
   /* header */
   header {
     height: 20vh;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     position: static;
   }
 
   .logo_img {
     position: static;
-    margin: 0 auto;
+    margin: auto 220px auto auto;
     z-index: 0;
   }
 
@@ -264,14 +275,22 @@ main {
   }
 
   .hamburger {
-		display: block;
-    margin: auto;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 50px;
+    margin-left: 0;
+    /* margin: auto; */
   }
   /* /header */
 
   /* main-image */
   main {
     text-align: center;
+  }
+
+  .main_img img {
+    margin: 0 auto;
   }
 
   .img_text {
@@ -290,6 +309,7 @@ main {
     white-space: pre;
   }
   /* /main-image */
+
   /*blog*/
   #column3{
     display:flex;
