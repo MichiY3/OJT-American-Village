@@ -174,7 +174,6 @@ main {
   margin: 50px;
 }
 #column3{
-
   display: grid;
   grid-template-columns: 330px 330px 330px;
   justify-content: space-around;
@@ -182,7 +181,7 @@ main {
 
 #blog_content{
   width:330px;
-  height:670px;
+  height:470px;
   margin-bottom:20px;
   /*position: relative;*/
   /* padding-left:10px;
@@ -191,15 +190,14 @@ main {
 }
 
 #blog_content img{
-  position:relative;
   width:330px;
   height:210px;
 }
 
 
 #blog_content p{
-  width:330px;
-  height:670px;
+  /* width:330px;
+  height:470px; */
   margin-bottom:15px;
   padding-right:15px;
   padding-left:15px;
