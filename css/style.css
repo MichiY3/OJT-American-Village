@@ -306,6 +306,18 @@ main {
     content: "\A";
     white-space: pre;
   }
+
+  /* slider */
+  /* .slider {
+    overflow: hidden;
+    position: relative;
+  }
+
+  .main_img {
+    position: absolute;
+    z-index: -2;
+  } */
+  /* /slider */
   /* /main-image */
 
   /*blog*/
