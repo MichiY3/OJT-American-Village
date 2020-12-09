@@ -359,14 +359,14 @@ main .swiper-container {
     left: 55%;
   }
 
-  #blog_content p:nth-of-type(2) {
+  .blog_content p:nth-of-type(2) {
     display: flex;
     justify-content: start;
     margin-left: 80px;
 
   }
 
-  #blog_content p:nth-of-type(3) {
+  .blog_content p:nth-of-type(3) {
     display: flex;
     justify-content: start;
     margin-left: 80px;
