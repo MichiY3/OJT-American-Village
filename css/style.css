@@ -129,32 +129,6 @@ nav {
 #drawer-bg li:first-child {
   margin-top: 25px;
 }
-/* .drawer {
-  display: none;
-  position: absolute;
-  z-index: 1;
-  top: 170px;
-  right: -100vh;
-  height: 185vh;
-  width: 200px;
-  background-color: rgba(8, 8, 8, .5);
-  transition-duration: 600ms;
-  color: #fff;
-}
-
-.drawer.on {
-  right: 0;
-  transition-duration: 600ms;
-}
-
-.drawer li {
-  font-size: 32px;
-  margin-bottom: 35px;
-}
-
-.drawer li:last-child {
-  margin-bottom: 0;
-} */
 
 /* /drawer */
 /* /header */
