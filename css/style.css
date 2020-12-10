@@ -256,7 +256,7 @@ a {
 /* /blog */
 
 /* footer*/
-#footer{
+footer{
   display: flex;
   align-items: center;
   justify-content: center;
